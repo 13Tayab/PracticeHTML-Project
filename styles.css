@@ -1,0 +1,28 @@
+.img {
+    text-align: center;
+    
+}
+.button{
+    text-align: center;
+}
+*{
+    text-align: center;
+}
+p {
+    margin-bottom: 100px;
+        margin-right: 150px;
+        margin-left: 80px;
+    }
+ .button {
+     transform: rotateX(150deg);
+ }
+ .img {
+     transform: rotateZ(90deg);
+ }
+
+.mask1 {
+    -webkit-mask-image: url(w3logo.png);
+    mask-image: url(w3logo.png);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+}
